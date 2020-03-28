@@ -21,6 +21,10 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             VStack {
+                Text("Stock Price Covariance")
+                    .font(.title)
+                    .bold()
+                    .padding(.top, 15)
                 Text("Sample Size")
                     .bold()
                     .padding(.top, 50)
